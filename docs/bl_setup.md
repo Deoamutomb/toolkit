@@ -14,6 +14,9 @@ For the coding agents found on this machine (Claude Code, Codex, Cursor, ...),
 setup installs the Blaxel agent skills and adds two hosted MCP servers:
 blaxel, to manage your workspace resources, and blaxel-docs, to search the
 Blaxel documentation. It then logs you in to Blaxel in your browser.
+When logging in without a specified workspace, if your account has no
+workspaces, setup opens the Console so you can create or join one, and waits
+up to five minutes for it to become available.
 
 In a terminal, setup shows everything it found, selected, and installs it
 when you press Enter; --yes installs it without showing the plan. Without a
